@@ -7,10 +7,10 @@ reQuery is an ACI moquery clone that performs remote queries and queries against
 ## Differences from moquery
 
 ### Filtering data
-moquery uses a unique filtering syntax for the `-f` filter option, e.g. `fv.BD.name=="my-tenant"`. reQuery uses the same query syntax as the API, e.g. `eq(fvBD.name,"my-tenant")`. 
+moquery uses a unique filtering syntax for the `-f` filter option, e.g. `fv.BD.name=="my-tenant"`. reQuery uses the same query syntax as the API, e.g. `eq(fvBD.name,"my-tenant")`, so the queries are interchangable with the documentation, other tools, and Visore.
 
 ### Output
-reQuery always outputs in JSON. Output is similar to moquery, but not exactly the same.
+reQuery always outputs in JSON; however, the data structure is flattened and is similar to moquery.
 
 ### CLI arguments
 **Not implemented:**
