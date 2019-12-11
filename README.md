@@ -13,7 +13,7 @@ moquery uses a unique filtering syntax for the `-f` filter option, e.g. `fv.BD.n
 reQuery always outputs in JSON; however, the data structure is flattened and is similar to moquery.
 
 ### CLI arguments
-#### Not implemented
+#### Not implemented:
 `-a --attrs  type of attributes to display (config, all)`
 reQuery always displays all attributes.
 
@@ -23,11 +23,11 @@ reQuery only outputs JSON.
 `-p --port   REST server port`
 Just add the port to the hostname/IP, e.g. 10.0.0.1:443
 
-#### Renamed
+#### Renamed:
 `--klass is now --class`
 Most likely a name clash in Python and is a non-issue for this tool.
 
 
-#### Unique to requery
+#### Unique to requery:
 `-m --mode :Force mode`
 By default the mode is determined by the extention, i.e. .tar.gz is a backup file. If this doesn't apply, use the mode option.
