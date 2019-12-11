@@ -1,5 +1,5 @@
 # reQuery
-ACI moquery clone that performs remote queries and queries against the backup file. This tool is based on the [goACI](https://github.com/brightpuddle/goaci) library.
+reQuery is an ACI moquery clone that performs remote queries and queries against the backup file. This tool is based on the [goACI](https://github.com/brightpuddle/goaci) library.
 
 
 ## Getting Started
