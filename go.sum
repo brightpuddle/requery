@@ -2,8 +2,8 @@ github.com/alexflint/go-arg v1.2.0 h1:TOFkN8/Cn1VvbHhsCuYq+P6ol3P5FAmjKIqsk7D2U/
 github.com/alexflint/go-arg v1.2.0/go.mod h1:3Rj4baqzWaGGmZA2+bVTV8zQOZEjBQAPBnL5xLT+ftY=
 github.com/alexflint/go-scalar v1.0.0 h1:NGupf1XV/Xb04wXskDFzS0KWOLH632W/EO4fAFi+A70=
 github.com/alexflint/go-scalar v1.0.0/go.mod h1:GpHzbCOZXEKMEcygYQ5n/aa4Aq84zbxjy3MxYW0gjYw=
-github.com/brightpuddle/goaci v0.3.2 h1:x1oeel+n7ebJUP+TnlDOpx15dVY2q1isKmgAX0Ec6Pg=
-github.com/brightpuddle/goaci v0.3.2/go.mod h1:jBlg9GKQw+pxxQPmxvRPnRH9Qf06oDwmTB5xGfvQimc=
+github.com/brightpuddle/goaci v0.3.6 h1:8GumHMF+8NdKQ09QX2aTRkGS1UfW7WGodbZZFh7LAyc=
+github.com/brightpuddle/goaci v0.3.6/go.mod h1:jBlg9GKQw+pxxQPmxvRPnRH9Qf06oDwmTB5xGfvQimc=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
