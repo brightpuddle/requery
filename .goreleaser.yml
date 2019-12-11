@@ -1,4 +1,4 @@
-project_name: moquery
+project_name: requery
 env_files:
   github_token: ~/.github.com.token
 env:
