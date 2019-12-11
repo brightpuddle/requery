@@ -104,3 +104,7 @@ reQuery always outputs in JSON; however, the data structure is flattened and is 
 
 #### Unique to requery:
 `-m --mode` - By default the mode is determined by the extention, i.e. .tar.gz is a backup file. If this doesn't apply, use the mode option to specify `http` or `backup`.
+
+
+## Feedback
+Feedback and/or pull requests welcome.
