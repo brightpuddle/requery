@@ -1,4 +1,4 @@
-module github.com/brightpuddle/moquery
+module github.com/brightpuddle/requery
 
 go 1.13
 

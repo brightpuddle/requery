@@ -16,29 +16,9 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 )
 
+var version string
+
 // Args are command line arguments.
-// Differences from the original moquery:
-//
-// Not implemented:
-// -a --attrs  type of attributes to display (config, all)
-// This moquery always displays all attributes.
-//
-// -o --output Display format (block, table, xml, json)
-// This tool only outputs JSON. Use the "grep" option to remove the className.attributes.
-//
-// -p --port   REST server port
-// Just add the port to the hostname/IP, e.g. 1.1.1.1:443
-//
-// Renamed:
-// --klass is now --class
-// This was most likely a name clash in python and is a non-issue for this library.
-//
-// New options:
-// -g --grep : Grep the result with a gjson filter expression
-//
-// -m --mode :Force mode
-// By default the mode is determined by the extention, i.e. .tar.gz is a backup file.
-// If this doesn't apply, use the mode option.
 type Args struct {
 	Target   string   `arg:"positional,required" help:"Hostname or backup file" `
 	Mode     string   `args:"-m" help:"Force mode [http|backup]"`
@@ -48,6 +28,15 @@ type Args struct {
 	Options  []string `arg:"-x" help:"Extra query options"`
 	User     string   `arg:"-u" help:"Username for APIC"`
 	Password string   `arg:"-p" help:"Password for APIC"`
+}
+
+// Description described the app.
+func (Args) Description() string {
+	return "reQuery ACI offline and remote query tool."
+}
+
+func (Args) Version() string {
+	return fmt.Sprintf("reQuery version %s", version)
 }
 
 // input get command line input from the user.
