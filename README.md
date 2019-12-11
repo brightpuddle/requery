@@ -31,9 +31,9 @@ Just add the port to the hostname/IP, e.g. 10.0.0.1:443
 
 #### Renamed:
 ```
---klass is now --class
+--klass
 ```
-Most likely a name clash in Python and is a non-issue for this tool.
+This was renamed to `--class` for consistency.
 
 
 #### Unique to requery:
