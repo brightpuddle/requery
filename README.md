@@ -4,6 +4,10 @@ reQuery is an ACI moquery clone that performs remote queries and queries against
 
 ## Getting Started
 
+Download the latest release from [the releases tab](https://github.com/brightpuddle/requery/releases).
+
+requery is similar to moquery with a few key differences. Since requery runs remotely it always requires a "target." The target can be an APIC hostname, in which case requery will use HTTP to query the API. The target can also be a `.tar.gz` configuration backup from the APIC. 
+
 ## Differences from moquery
 
 ### Filtering data
