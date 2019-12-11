@@ -14,20 +14,30 @@ reQuery always outputs in JSON; however, the data structure is flattened and is 
 
 ### CLI arguments
 #### Not implemented:
-`-a --attrs  type of attributes to display (config, all)`
+```
+-a --attrs  type of attributes to display (config, all)
+```
 reQuery always displays all attributes.
 
-`-o --output Display format (block, table, xml, json)`
+```
+-o --output Display format (block, table, xml, json)
+```
 reQuery only outputs JSON.
 
-`-p --port   REST server port`
+```
+-p --port   REST server port
+```
 Just add the port to the hostname/IP, e.g. 10.0.0.1:443
 
 #### Renamed:
-`--klass is now --class`
+```
+--klass is now --class
+```
 Most likely a name clash in Python and is a non-issue for this tool.
 
 
 #### Unique to requery:
-`-m --mode :Force mode`
+```
+-m --mode :Force mode
+```
 By default the mode is determined by the extention, i.e. .tar.gz is a backup file. If this doesn't apply, use the mode option.
