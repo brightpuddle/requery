@@ -20,8 +20,8 @@ var version string
 
 // Args are command line arguments.
 type Args struct {
-	Target   string   `arg:"positional,required" help:"Hostname or backup file" `
-	Mode     string   `args:"-m" help:"Force mode [http|backup]"`
+	Target   string   `arg:"-t" help:"Hostname or backup file" `
+	Mode     string   `arg:"-m" help:"Force mode [http|backup]"`
 	Class    string   `arg:"-c" help:"Comma separated classnames to query"`
 	Dn       string   `arg:"-d" help:"DN of the MO"`
 	Filter   string   `arg:"-f" help:"Property filter to accept/reject MOs"`
